@@ -3,13 +3,16 @@
   "version": "1.0.0-alpha",
   "private": true,
   "scripts": {
-    "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "dev": "next dev",
     "lint": "next lint",
     "lint:fix": "next lint --fix",
     "lint:tsc": "tsc",
-    "postinstall": "husky install"
+    "postinstall": "husky install",
+    "start": "next start",
+    "test": "jest",
+    "test:ci": "CI=true jest --coverage --colors",
+    "test:watch": "jest --watch"
   },
   "dependencies": {
     "next": "13.0.3",
