@@ -20,7 +20,7 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "17.2.0",
+    "@commitlint/cli": "17.3.0",
     "@commitlint/config-conventional": "17.2.0",
     "@testing-library/jest-dom": "5.16.5",
     "@testing-library/react": "13.4.0",
