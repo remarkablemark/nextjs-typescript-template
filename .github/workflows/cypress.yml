@@ -1,0 +1,33 @@
+name: cypress
+on: pull_request
+
+jobs:
+  cypress:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Cypress run
+        uses: cypress-io/github-action@v4
+        with:
+          browser: chrome
+          build: yarn build
+          start: yarn start
+          wait-on: 'http://localhost:3000'
+
+      - name: Record failed screenshots
+        uses: actions/upload-artifact@v3
+        if: failure()
+        with:
+          name: cypress-screenshots
+          path: cypress/screenshots
+
+      - name: Record videos
+        uses: actions/upload-artifact@v3
+        if: always()
+        with:
+          name: cypress-videos
+          path: cypress/videos
