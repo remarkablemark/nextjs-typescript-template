@@ -1,3 +1,5 @@
+export {};
+
 describe('Index', () => {
   it('renders the index page', () => {
     // Start from the index page
