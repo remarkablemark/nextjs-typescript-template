@@ -5,6 +5,7 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev",
+    "cypress:open": "cypress open",
     "lint": "next lint",
     "lint:fix": "next lint --fix",
     "lint:tsc": "tsc",
