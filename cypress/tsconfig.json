@@ -1,6 +1,7 @@
 {
   "extends": "../tsconfig.json",
   "compilerOptions": {
+    "target": "es2021",
     "types": ["cypress", "@testing-library/cypress"]
   },
   "include": ["../node_modules/cypress", "./**/*.ts"],
