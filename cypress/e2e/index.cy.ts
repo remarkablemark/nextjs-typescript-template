@@ -1,4 +1,3 @@
-/// <reference types="cypress" />
 export {};
 
 describe('Index', () => {
@@ -7,6 +6,9 @@ describe('Index', () => {
     cy.visit('/');
 
     // The new page should contain an h1 with "Welcome to Next.js!"
-    cy.get('h1').contains('Welcome to Next.js!');
+    cy.findByRole('heading', {
+      level: 1,
+      name: 'Welcome to Next.js!',
+    }).should('exist');
   });
 });
