@@ -1,7 +1,0 @@
-{
-  "stepDefinitions": [
-    "cypress/e2e/[filepath]/**/*.ts",
-    "cypress/e2e/[filepath].ts",
-    "cypress/e2e/common-step-definitions/*.ts"
-  ]
-}

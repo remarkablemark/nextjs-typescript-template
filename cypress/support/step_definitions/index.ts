@@ -1,8 +1,6 @@
-import { Then, When } from '@badeball/cypress-cucumber-preprocessor';
+import 'cypress-cucumber-steps';
 
-When('I visit {string}', (url: string) => {
-  cy.visit(url);
-});
+import { Then, When } from '@badeball/cypress-cucumber-preprocessor';
 
 // https://github.com/cucumber/cucumber-expressions
 Then('I see heading {string}', (text: string) => {
