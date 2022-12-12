@@ -1,4 +1,4 @@
-Feature: 404 page
-  Scenario: visiting 404 page
-    When I visit "/404"
+Feature: 404
+  Scenario: Visiting the page
+    When I visit "/404" without failing
     Then I see text "This page could not be found."

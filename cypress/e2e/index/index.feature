@@ -1,4 +1,4 @@
-Feature: index page
-  Scenario: visiting the index page
+Feature: Index
+  Scenario: Visiting the page
     When I visit "/"
-    Then I see heading "Welcome to Next.js!"
+    Then I see text "Welcome to Next.js!"

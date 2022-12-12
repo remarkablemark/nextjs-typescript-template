@@ -1,5 +1,6 @@
 import { When } from '@badeball/cypress-cucumber-preprocessor';
 
-When('I visit {string}', (url: string) => {
+// https://github.com/cucumber/cucumber-expressions
+When('I visit {string} without failing', (url: string) => {
   cy.visit(url, { failOnStatusCode: false });
 });
