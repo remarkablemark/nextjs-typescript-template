@@ -5,6 +5,7 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev",
+    "clean": "rm -rf .next",
     "cypress:open": "cypress open",
     "lint": "next lint",
     "lint:fix": "next lint --fix",
