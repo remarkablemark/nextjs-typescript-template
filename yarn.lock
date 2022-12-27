@@ -2170,10 +2170,10 @@ csstype@^3.0.2:
   resolved "https://registry.npmjs.org/csstype/-/csstype-3.1.1.tgz"
   integrity sha512-DJR/VvkAvSZW9bTouZue2sSxDwdTN92uHjqeKVm+0dAqdfNykRzQ95tay8aXMBAAPpUiq4Qcug2L7neoRh2Egw==
 
-cypress-cucumber-steps@1.32.1:
-  version "1.32.1"
-  resolved "https://registry.yarnpkg.com/cypress-cucumber-steps/-/cypress-cucumber-steps-1.32.1.tgz#34fbdad445a5e270db15ebb3416ddc86fdb41997"
-  integrity sha512-YuBp/DnqnCwvx6FhORDrsSQWMAA4U3RfCPm27O0u7EYr7thHAmanpaZX9xblk5o6y9bJPaNLqEt1fYxcRULIFA==
+cypress-cucumber-steps@1.34.0:
+  version "1.34.0"
+  resolved "https://registry.yarnpkg.com/cypress-cucumber-steps/-/cypress-cucumber-steps-1.34.0.tgz#274df326def121d5dd5905693909828cd3359a89"
+  integrity sha512-LnBPV3tCda7maqVZkPb8k8s0sMbLL27Y2tZgY3eaHaDHtNFnhEzt/I+r492DHdsKI/kEraQwg2KNI59n+2DYRg==
 
 cypress@12.2.0:
   version "12.2.0"
