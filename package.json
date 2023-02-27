@@ -35,7 +35,7 @@
     "autoprefixer": "10.4.13",
     "cypress": "12.7.0",
     "cypress-cucumber-steps": "1.50.0",
-    "eslint": "8.34.0",
+    "eslint": "8.35.0",
     "eslint-config-next": "13.2.0",
     "eslint-plugin-prettier": "4.2.1",
     "eslint-plugin-simple-import-sort": "10.0.0",
