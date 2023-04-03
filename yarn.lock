@@ -319,10 +319,10 @@
     "@babel/helper-validator-identifier" "^7.19.1"
     to-fast-properties "^2.0.0"
 
-"@badeball/cypress-configuration@^4.0.0":
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/@badeball/cypress-configuration/-/cypress-configuration-4.2.0.tgz#4c19bada0e40600b572b4d91933e0bd226cb2e3f"
-  integrity sha512-8Dc6diBW8zUycpCFbr7vqQ8ioNZMvpHV79KGdHVpwpRtkFX6enwG82CKU9DeWys6Ou5dFpXw6NYNYNb46y7UYA==
+"@badeball/cypress-configuration@^5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@badeball/cypress-configuration/-/cypress-configuration-5.0.0.tgz#e4f19183d0a757e3e9965eca4cd1fb63c05f46b3"
+  integrity sha512-tee+L0anYnSRVsuj8pOOkPWOmKkvCMobpntQI/K1HumnEyEmLWHx+o+w0kknTfP0JmWUE36ax3znbc74m2QKlw==
   dependencies:
     "@babel/parser" "^7.18.8"
     debug "^4.3.2"
@@ -331,12 +331,12 @@
     minimatch "^3.0.4"
     node-hook "^1.0.0"
 
-"@badeball/cypress-cucumber-preprocessor@16.0.1":
-  version "16.0.1"
-  resolved "https://registry.yarnpkg.com/@badeball/cypress-cucumber-preprocessor/-/cypress-cucumber-preprocessor-16.0.1.tgz#cde4d65e06c2c4c74ca36180b0c1149429bcfe2a"
-  integrity sha512-5f3vHevWIVCUbjr6kRvQeOFkZikZ1mv+9gqvEZ/73FSc4GSYRQS9kZc3v3xSHE0XIUWdHfCgGTYplGsxyIKW4g==
+"@badeball/cypress-cucumber-preprocessor@16.0.3":
+  version "16.0.3"
+  resolved "https://registry.yarnpkg.com/@badeball/cypress-cucumber-preprocessor/-/cypress-cucumber-preprocessor-16.0.3.tgz#10a019ec159845945ff310ab225742ebc6f30b52"
+  integrity sha512-a7F9bvINA62n4p5IOh2Eo5O9En18nROP1WuX9GUlTOyBzKk6+J9ALms+Bb1Y3bTJ8moX2kgEiR2rlrrhQprFAw==
   dependencies:
-    "@badeball/cypress-configuration" "^4.0.0"
+    "@badeball/cypress-configuration" "^5.0.0"
     "@cucumber/cucumber" "^8.11.1"
     "@cucumber/cucumber-expressions" "^16.0.0"
     "@cucumber/gherkin" "^24.0.0"
