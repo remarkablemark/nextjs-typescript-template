@@ -26,7 +26,7 @@
     "@badeball/cypress-cucumber-preprocessor": "16.0.3",
     "@bahmutov/cypress-esbuild-preprocessor": "2.2.0",
     "@commitlint/cli": "17.6.3",
-    "@commitlint/config-conventional": "17.6.1",
+    "@commitlint/config-conventional": "17.6.3",
     "@testing-library/jest-dom": "5.16.5",
     "@testing-library/react": "14.0.0",
     "@types/node": "20.1.3",
