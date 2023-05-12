@@ -1,6 +1,6 @@
 {
   "name": "nextjs-typescript-template",
-  "version": "1.0.0-alpha",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "build": "next build",
@@ -50,7 +50,7 @@
     "typescript": "5.0.4"
   },
   "engines": {
-    "node": "18",
+    "node": "16",
     "yarn": "1"
   }
 }
