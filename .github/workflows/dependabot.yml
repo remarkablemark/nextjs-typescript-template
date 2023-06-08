@@ -20,4 +20,4 @@ jobs:
 
       - name: Auto-merge Dependabot PR
         if: contains(github.event.pull_request.title, 'deps-dev')
-        run: gh pr merge --auto --merge $PR_URL
+        run: gh pr merge --auto --squash $PR_URL
