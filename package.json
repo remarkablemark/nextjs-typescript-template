@@ -36,7 +36,7 @@
     "cypress": "12.17.4",
     "cypress-cucumber-steps": "2.10.0",
     "eslint": "8.46.0",
-    "eslint-config-next": "13.4.16",
+    "eslint-config-next": "13.4.18",
     "eslint-plugin-prettier": "5.0.0",
     "eslint-plugin-simple-import-sort": "10.0.0",
     "husky": "8.0.3",
