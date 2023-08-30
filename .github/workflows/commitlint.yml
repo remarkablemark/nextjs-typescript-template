@@ -4,7 +4,7 @@ on: pull_request
 jobs:
   commitlint:
     runs-on: ubuntu-latest
-    timeout-minutes: 1
+    timeout-minutes: 5
 
     steps:
       - name: Checkout repository
@@ -12,7 +12,5 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Lint commit messages
-        run: |
-          npm install @commitlint/{cli,config-conventional}
-          npx commitlint --from=HEAD~1
+      - name: Commitlint
+        uses: remarkablemark/commitlint@v1
