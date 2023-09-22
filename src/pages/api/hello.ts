@@ -1,4 +1,9 @@
-// Next.js Edge API Routes: https://nextjs.org/docs/api-routes/edge-api-routes
+/**
+ * Next.js Edge API Routes
+ *
+ * @see https://nextjs.org/docs/pages/building-your-application/routing/api-routes
+ * @see https://blog.cloudflare.com/next-on-pages/
+ */
 import type { NextRequest } from 'next/server';
 
 interface Data {
@@ -13,3 +18,5 @@ export default function handler(request: NextRequest) {
     },
   });
 }
+
+export const config = { runtime: 'edge' };
