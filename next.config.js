@@ -4,11 +4,6 @@ const nextConfig = {
   eslint: {
     dirs: ['config', 'cypress', 'src'],
   },
-  experimental: {
-    appDir: true,
-    // https://developers.cloudflare.com/pages/framework-guides/deploy-a-nextjs-site/#configure-the-project-to-use-the-edge-runtime
-    runtime: 'edge',
-  },
   reactStrictMode: true,
   swcMinify: true,
 };
