@@ -13,16 +13,16 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
+          cache: npm
           node-version-file: .nvmrc
-          cache: yarn
 
       - name: Install dependencies
-        run: yarn --frozen-lockfile --prefer-offline
+        run: npm install --prefer-offline
 
       - name: Run ESLint
-        run: yarn lint
+        run: npm run lint
 
       - name: Type check
         run: |
-          yarn lint:tsc
-          yarn lint:tsc:cypress
+          npm run lint:tsc
+          npm run lint:tsc:cypress

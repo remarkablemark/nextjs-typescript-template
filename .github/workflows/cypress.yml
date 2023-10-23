@@ -13,15 +13,15 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
+          cache: npm
           node-version-file: .nvmrc
-          cache: yarn
 
       - name: Cypress run
         uses: cypress-io/github-action@v6
         with:
           browser: chrome
-          build: yarn build
-          start: yarn start
+          build: npm run build
+          start: npm start
           wait-on: 'http://localhost:3000'
 
       - name: Record failed screenshots

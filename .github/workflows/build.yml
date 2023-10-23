@@ -13,11 +13,11 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
+          cache: npm
           node-version-file: .nvmrc
-          cache: yarn
 
       - name: Install dependencies
-        run: yarn --frozen-lockfile --prefer-offline
+        run: npm install --prefer-offline
 
       - name: Build app
-        run: yarn build
+        run: npm run build
