@@ -35,7 +35,7 @@
     "@types/react-dom": "18.2.18",
     "autoprefixer": "10.4.16",
     "cypress": "13.6.1",
-    "cypress-cucumber-steps": "3.51.0",
+    "cypress-cucumber-steps": "3.52.0",
     "eslint": "8.56.0",
     "eslint-config-next": "14.0.4",
     "eslint-plugin-prettier": "5.0.1",
