@@ -11,7 +11,7 @@
     "lint:fix": "next lint --fix",
     "lint:tsc": "tsc",
     "lint:tsc:cypress": "tsc --project cypress/tsconfig.json",
-    "postinstall": "husky install",
+    "prepare": "husky",
     "start": "next start",
     "test": "jest",
     "test:ci": "CI=true jest --coverage --colors",
