@@ -1,4 +1,4 @@
-name: release
+name: release-please
 on:
   push:
     branches:
@@ -11,6 +11,6 @@ jobs:
 
     steps:
       - name: Release Please
-        uses: google-github-actions/release-please-action@v4
+        uses: googleapis/release-please-action@v4
         with:
           release-type: node
