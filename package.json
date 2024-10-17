@@ -27,7 +27,7 @@
     "@bahmutov/cypress-esbuild-preprocessor": "2.2.3",
     "@commitlint/cli": "19.5.0",
     "@commitlint/config-conventional": "19.5.0",
-    "@testing-library/jest-dom": "6.6.1",
+    "@testing-library/jest-dom": "6.6.2",
     "@testing-library/react": "16.0.1",
     "@types/jest": "^29.5.13",
     "@types/node": "22.7.6",
