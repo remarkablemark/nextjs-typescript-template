@@ -20,7 +20,7 @@
   "dependencies": {
     "next": "15.3.0",
     "react": "19.0.0",
-    "react-dom": "19.0.0"
+    "react-dom": "19.1.0"
   },
   "devDependencies": {
     "@badeball/cypress-cucumber-preprocessor": "22.0.1",
@@ -32,7 +32,7 @@
     "@types/jest": "^29.5.14",
     "@types/node": "22.14.0",
     "@types/react": "19.0.12",
-    "@types/react-dom": "19.0.4",
+    "@types/react-dom": "19.1.2",
     "autoprefixer": "10.4.21",
     "cypress": "14.3.0",
     "cypress-cucumber-steps": "3.63.0",
