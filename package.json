@@ -1,7 +1,6 @@
 {
   "name": "nextjs-typescript-template",
   "version": "1.0.0-alpha",
-  "private": true,
   "scripts": {
     "build": "next build",
     "dev": "next dev",
@@ -50,8 +49,6 @@
     "ts-node": "10.9.2",
     "typescript": "5.8.3"
   },
-  "engines": {
-    "node": "18",
-    "npm": ">=9"
-  }
+  "private": true,
+  "license": "MIT"
 }
