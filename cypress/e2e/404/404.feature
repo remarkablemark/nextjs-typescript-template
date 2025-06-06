@@ -1,4 +1,5 @@
 Feature: 404
   Scenario: Visiting 404 page
-    When I visit "/404" without failing
+    Given I visit "/404"
+      | failOnStatusCode | false |
     Then I see text "This page could not be found."

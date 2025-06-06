@@ -1,4 +1,4 @@
 Feature: Homepage
   Scenario: Visiting homepage
-    When I visit "/"
-    Then I see text "Welcome to Next.js!"
+    Given I visit "/"
+    Then I see heading "Welcome to Next.js!"
