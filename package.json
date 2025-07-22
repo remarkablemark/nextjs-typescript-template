@@ -42,7 +42,7 @@
     "eslint-plugin-prettier": "5.5.3",
     "eslint-plugin-simple-import-sort": "12.1.1",
     "husky": "9.1.7",
-    "jest": "30.0.4",
+    "jest": "30.0.5",
     "jest-environment-jsdom": "30.0.5",
     "lint-staged": "16.1.2",
     "postcss": "8.5.6",
