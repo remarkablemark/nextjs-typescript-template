@@ -34,7 +34,7 @@
     "@types/jest": "30.0.0",
     "@types/node": "24.10.1",
     "@types/react": "19.2.4",
-    "@types/react-dom": "19.2.2",
+    "@types/react-dom": "19.2.3",
     "cypress": "15.6.0",
     "cypress-cucumber-steps": "3.64.0",
     "eslint": "9.39.1",
