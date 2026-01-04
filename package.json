@@ -3,6 +3,10 @@
   "version": "1.0.0-alpha",
   "scripts": {
     "build": "next build",
+    "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
+    "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
+    "upload": "opennextjs-cloudflare build && opennextjs-cloudflare upload",
+    "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts",
     "dev": "next dev",
     "clean": "rm -rf .next",
     "cypress:open": "cypress open",
@@ -17,6 +21,7 @@
     "test:watch": "jest --watch"
   },
   "dependencies": {
+    "@opennextjs/cloudflare": "1.14.7",
     "next": "16.1.1",
     "react": "19.2.3",
     "react-dom": "19.2.3"
@@ -49,7 +54,8 @@
     "prettier": "3.7.4",
     "tailwindcss": "4.1.18",
     "ts-node": "10.9.2",
-    "typescript": "5.9.3"
+    "typescript": "5.9.3",
+    "wrangler": "4.54.0"
   },
   "private": true,
   "license": "MIT"

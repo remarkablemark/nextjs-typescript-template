@@ -9,5 +9,3 @@ export default function handler(request: Request) {
     headers: { 'Content-Type': 'application/json' },
   });
 }
-
-export const runtime = 'edge';
