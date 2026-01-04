@@ -19,3 +19,5 @@ export default function GlobalError({
     </html>
   );
 }
+
+export const runtime = 'edge';
